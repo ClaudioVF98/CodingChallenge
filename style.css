@@ -1,0 +1,89 @@
+/* Modifiche Generali */
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  margin: 5px;
+}
+
+/* Box */
+.container{
+  width: 1200px;
+  height: 825px;
+  margin: auto;
+  margin-top: 2%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+}
+
+/* Logo e Titolo */
+.container2 img{
+  width: 200px;
+  height: auto;
+  margin-top: 70px;
+}
+
+.container2 h1{
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.container2{
+  text-align: center;
+  color: #00DE00ff;
+}
+
+/* Pulsanti */
+.pulsanti{
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  background-color: #00DE00ff;
+  padding-top: 10px;
+}
+
+/* Informazioni dei Monopattini */
+.info{
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  color: white;
+}
+
+.monopattino{
+  font-size: 30px;
+}
+
+.monopattino:before{
+  content: "\21A6 ";
+  font-size: 20px;
+}
+
+/* Barre di carica */
+.Elemento{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Carica{
+  height: 30px;
+  border-radius: 8px;
+}
+
+.Colore1{
+  width: 400px;
+  background-color: rgba(243,201,66,1);
+}
+
+.Colore2{
+  width: 700px;
+  background-color: rgba(3,167,36,1);
+}
+
+.Colore3{
+  width: 200px;
+  background-color: rgba(201,0,0,1);
+}
